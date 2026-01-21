@@ -10,7 +10,12 @@ namespace ConsoleApp4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hola");
+            int x = 1;
+            while(x<=10)
+            {
+                Console.WriteLine(x);
+                x++;
+            }
 
 
         }
